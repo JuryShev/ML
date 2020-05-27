@@ -24,7 +24,7 @@ from sklearn.linear_model import LogisticRegression
 
 url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data'
 df_wine=pd.read_csv(url)
-#df_wine.to_csv(r'D:\book\programming\PY\pandas\ML\ML_rahka\data_csv\wine.csv')
+
 
 X, y = df_wine.iloc[:,1:].values, df_wine.iloc[:,0].values
 #iloc - используется для доступа по числовому значению (начиная от 0)
